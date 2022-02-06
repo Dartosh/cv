@@ -1,0 +1,33 @@
+header {
+    background: linear-gradient(to bottom, #2e3c4e 50%, #d9d9d9 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: #2e3c4e solid 25px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    display: block;
+    max-width: 250px;
+    text-transform: uppercase;
+
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 48px;
+}
+
+h1 span {
+    color: #d9d9d9;
+}
+
+

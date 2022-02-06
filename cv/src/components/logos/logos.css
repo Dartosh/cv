@@ -1,0 +1,181 @@
+.java-lang {
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .java-lang {
+    fill: #d9d9d9;
+}
+
+.js-lang rect{
+    fill: #2e3c4e;
+    fill-opacity:1;
+    stroke:none;
+    transition-duration: 0.2s;
+}
+
+.js-lang path{
+    fill: #d9d9d9;
+    fill-opacity:1;
+    stroke:none;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .js-lang rect {
+    fill: #d9d9d9;
+}
+
+.tools-list li:hover .js-lang path {
+    fill: #2e3c4e;
+}
+
+.ts-lang path:nth-child(1){
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.ts-lang path:nth-child(2){
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #d9d9d9;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .ts-lang path:nth-child(1) {
+    fill: #d9d9d9;
+}
+
+.tools-list li:hover .ts-lang path:nth-child(2) {
+    fill: #2e3c4e;
+}
+
+.cpp-lang {
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .cpp-lang {
+    fill: #d9d9d9;
+}
+
+.mongo-db {
+    stroke:none;
+    fill-rule:evenodd;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .mongo-db {
+    fill: #d9d9d9;
+}
+
+.my-sql {
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .my-sql {
+    fill: #d9d9d9;
+}
+
+
+.git-tool {
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .git-tool {
+    fill: #d9d9d9;
+}
+
+.html-tool path {
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.html-tool path:nth-child(1),
+.html-tool path:nth-child(2){
+    fill: #2e3c4e;
+}
+
+.html-tool path:nth-child(3),
+.html-tool path:nth-child(4) {
+    fill: #d9d9d9;
+}
+
+.tools-list li:hover .html-tool path:nth-child(1),
+.tools-list li:hover .html-tool path:nth-child(2){
+    fill: #d9d9d9;
+}
+
+.tools-list li:hover .html-tool path:nth-child(3),
+.tools-list li:hover .html-tool path:nth-child(4){
+    fill: #2e3c4e;
+}
+
+.react-tool path:nth-child(1) {
+    stroke:none;
+    fill-rule:nonzero;
+    fill-opacity:1;
+    fill: #2e3c4e;
+    transition-duration: 0.2s;
+}
+
+.react-tool path:nth-child(2),
+.react-tool path:nth-child(3),
+.react-tool path:nth-child(4){
+    fill:none;
+    stroke-width:1;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke: #2e3c4e;
+    stroke-opacity:1;
+    stroke-miterlimit:4;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .react-tool path:nth-child(1) {
+    fill: #d9d9d9;
+}
+
+.tools-list li:hover .react-tool path:nth-child(2),
+.tools-list li:hover .react-tool path:nth-child(3),
+.tools-list li:hover .react-tool path:nth-child(4){
+    stroke: #d9d9d9
+}
+
+.node-tool {
+    stroke:none;
+    fill-rule:nonzero;
+    fill: #2e3c4e;
+    fill-opacity:1;
+    transition-duration: 0.2s;
+}
+
+.tools-list li:hover .node-tool {
+    fill: #d9d9d9;
+}
+
+svg {
+    margin: 10px;
+}
