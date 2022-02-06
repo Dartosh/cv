@@ -4,7 +4,8 @@ export const contacts = {
     phone: "(8025) 519-72-18",
     skype: "anton.klintsov9",
     linkedin: "@dartosh",
-    vk: "@darksavior"
+    vk: "@darksavior",
+    github: "@Dartosh",
 };
 
 export const links = {
@@ -14,4 +15,5 @@ export const links = {
     email: "mailto:anthony.klintsov@gmail.com",
     telegram: "https://t.me/Dartosh_Kl",
     phone: "tel:+375255197218",
+    iitSite: "https://github.com/Dartosh/iit-department-frontend",
 }

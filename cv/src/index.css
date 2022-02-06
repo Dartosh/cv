@@ -37,6 +37,7 @@ body {
   line-height: 1.5;
   font-family: Roboto, serif;
   color: #2e3c4e;
+  background: url("https://i.imgur.com/oV0LqrQ.png") repeat;
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/

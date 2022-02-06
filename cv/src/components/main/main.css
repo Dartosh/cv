@@ -71,3 +71,20 @@ main .hard-skills {
     background-color: #2e3c4e;
     color: #d9d9d9;
 }
+
+.hard-skills {
+    text-align: center;
+}
+
+.hard-skills a{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hard-skills img{
+    border-radius: 0;
+    border: #2e3c4e solid 5px;
+    height: 411px;
+    width: 674px;
+    margin: auto;
+}

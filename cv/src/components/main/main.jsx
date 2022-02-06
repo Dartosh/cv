@@ -18,12 +18,14 @@ import {
 const AboutMe = () => {
     return(
         <span>
-            I live in Belarus, Minsk.
-            I’am a student of Belarusian State University of
-            Informatics and Radioelectronics on the specialty
-            artificial intelligence. At the moment I want to
-            learn JavaScript language and work in web
-            programming, combining knowledge of JS and Java.
+            I am the kind of person who will always find a
+            common language with a new group of people.
+            I am a highly motivated and goal oriented person.
+            My most characteristic qualities are: <b>good
+            communication skills</b>, <b>strategic thinking</b>,
+            <b>leadership ability</b> and <b>personal development</b>.
+            I always respond well to changes and working in
+            a team.
         </span>
     )
 }
@@ -49,6 +51,7 @@ const Main = () => {
                         <li><b>Skype:</b> {contacts.skype}</li>
                         <li><b>Linkedin:</b> <a href={links.linkedin}>{contacts.linkedin}</a></li>
                         <li><b>VK:</b> <a href={links.vk}>{contacts.vk}</a></li>
+                        <li><b>GitHub:</b><a href={links.github}>{contacts.github}</a></li>
                     </ul>
                 </li>
                 <li className="main__sections__section">
@@ -114,11 +117,11 @@ const Main = () => {
                     </ul>
                 </li>
                 <li className="main__sections__section hard-skills">
-                    <h5>Reason for applying for a job</h5>
-                    <ul className="basic-list">
-                        <li><b>Professional interests:</b></li>
-                        <li><b>Military obligation status:</b></li>
-                    </ul>
+                    <h5>Work experience</h5>
+                    <h6><a href={links.iitSite}>Frontend of the website for the Department of Intelligent Information Technologies</a></h6>
+                    <span>(Sept. 2021 - present day)<br />
+                        Used technologies: TS, React, Redux, Saga, HTML, CSS</span>
+                    <img src="https://i.imgur.com/wEBQf17.png" alt="Page-example"/>
                 </li>
             </ul>
         </main>
