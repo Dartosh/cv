@@ -12,7 +12,9 @@ import {
     HtmlTool,
     CssTool,
     ReactTool,
-    NodeTool, ReduxTool
+    NodeTool,
+    ReduxTool,
+    AngularTool
 } from "../logos/logos";
 
 const AboutMe = () => {
@@ -36,7 +38,7 @@ const Main = () => {
             <ul className="main__sections">
                 <li className="main__sections__section">
                     <h5>Objective</h5>
-                    <span>Applying for a position of a <b>Fullstack JS Developer</b></span>
+                    <span>Applying for a position of a <b>Backend Node.js Developer</b></span>
                 </li>
                 <li className="main__sections__section">
                     <h5>Summary</h5>
@@ -106,8 +108,9 @@ const Main = () => {
                         <li>
                             <h6>Other technologies:</h6>
                             <ul className="tools-list">
+                                <li><NodeTool />Node.js (main)</li>
                                 <li><ReactTool />React</li>
-                                <li><NodeTool />Node.js</li>
+                                <li><AngularTool />Angular (basics)</li>
                                 <li><HtmlTool />HTML</li>
                                 <li><CssTool />CSS</li>
                                 <li><ReduxTool />Redux-saga</li>
@@ -122,6 +125,11 @@ const Main = () => {
                     <span>(Sept. 2021 - present day)<br />
                         Used technologies: TS, React, Redux, Saga, HTML, CSS</span>
                     <img src="https://i.imgur.com/wEBQf17.png" alt="Page-example"/>
+                    <br/>
+                    <h6><a href={links.postModule}>CRUD Application for posts</a></h6>
+                    <span>(Aug. 2021)<br />
+                        Used technologies: Node.js, Express, EJS</span>
+                    <img src="https://i.imgur.com/S07ItQ0.png" alt="Page-example"/>
                 </li>
             </ul>
         </main>

@@ -179,3 +179,44 @@
 svg {
     margin: 10px;
 }
+
+.angular-tool {
+    enable-background: new 0 0 250 250;
+}
+
+.angular-tool {
+    transition-duration: 0.2s;
+}
+
+.angular-tool path:first-child {
+    stroke: none;
+    fill-rule: nonzero;
+    fill: #2e3c4e;
+    fill-opacity: 1;
+}
+
+.tools-list li:hover .angular-tool path:first-child {
+    fill: #d9d9d9;
+}
+
+.angular-tool path:nth-child(2) {
+    stroke: none;
+    fill-rule: nonzero;
+    fill: #2e3c4e;
+    fill-opacity: 1;
+}
+
+.tools-list li:hover .angular-tool path:nth-child(2) {
+    fill: #d9d9d9;
+}
+
+.angular-tool path:nth-child(3) {
+    stroke: none;
+    fill-rule: nonzero;
+    fill: #d9d9d9;
+    fill-opacity: 1;
+}
+
+.tools-list li:hover .angular-tool path:nth-child(3) {
+    fill: #2e3c4e;
+}

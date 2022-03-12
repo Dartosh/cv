@@ -59,12 +59,15 @@ main .hard-skills {
 
 .tools-list li {
     display: flex;
+    max-width: 130px;
     padding: 0 20px 0 20px;
     font-weight: 300;
     align-items: center;
     flex-wrap: wrap;
     border-radius: 5px;
     transition-duration: 0.2s;
+
+    justify-content: center;
 }
 
 .tools-list li:hover {

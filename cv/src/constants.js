@@ -16,4 +16,5 @@ export const links = {
     telegram: "https://t.me/Dartosh_Kl",
     phone: "tel:+375255197218",
     iitSite: "https://github.com/Dartosh/iit-department-frontend",
+    postModule: "https://github.com/Dartosh/post-module",
 }
